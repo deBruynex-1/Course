@@ -1,0 +1,53 @@
+.main {
+  border: 1px solid #333;
+  height: 250px;
+  width: 380px;
+  padding: 20px 10px;
+  position: relative;
+
+}
+
+.main .item:nth-child(1) {
+    display: none;
+
+}
+
+.item {
+    position: relative;
+    height: 50px;
+    width: 400px;
+    margin: 10px auto;
+    
+}
+
+.item .u-left {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: black;
+    
+}
+
+.item .u-right {
+    
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    margin-left: auto;
+    text-align: center;
+}
+
+button {
+  height: 35px;
+  width: 95px;
+  border: 1px solid #333;
+  background: #339966;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}

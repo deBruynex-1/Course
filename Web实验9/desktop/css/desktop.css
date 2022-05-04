@@ -1,0 +1,319 @@
+body{
+  margin: auto;
+}
+
+header {
+  background-color: #008DEF;
+}
+
+span.small {
+  font-size: small;
+}
+
+span.other {
+  font-size: small;
+  color: #bbbbbb;
+}
+
+header.c-t {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 10px 20px;
+}
+
+header .c-t>li {
+  float: left;
+  display: block;
+  height: 100px;
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+header .c-t>li.act {
+  background-color: #0069B4;
+}
+
+header .c-t>li>a {
+  color: #fff;
+}
+
+header .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header .right>.sign>a {
+  color: #fff;
+}
+
+header .right>.sign>span {
+  color: #fff;
+}
+
+header .right>.search {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5px;
+}
+
+header .right>.search>.dropdown {
+  background-color: #F9F9F9;
+  padding: 0 5px;
+}
+
+header .right>.search>.dropdown>a {
+  color: #000;
+}
+
+header .right>.search>input {
+  border: 0;
+}
+
+section {
+  margin: 15px 0;
+}
+
+section.title rect {
+  display: block;
+  background-color: #666666;
+  width: 100%;
+  height: 100%;
+}
+
+section.title .left {
+  height: 300px;
+}
+
+section.title .info hr {
+  border-top: #000 1px dashed;
+  width: 80%;
+  margin: 0 auto;
+}
+
+span.highlight {
+  color: #009DFF;
+}
+
+section.title .info {
+  background-color: #F4F4F4;
+}
+
+section.title .info>.top,
+section.title .info>.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.title .info>.top {
+  height: 70%;
+}
+
+section.title .info>.top>.btn {
+  width: 150px;
+  height: 40px;
+}
+
+section.title .info>.bottom {
+  justify-content: center;
+  height: 30%;
+}
+
+section.title .info>.bottom>div {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.main>.row>.left .title {
+  margin-bottom: 5px;
+}
+
+section.main>.row>.left span.title {
+  font-weight: 600;
+}
+
+section.main>.row>.left span.content {
+  display: block;
+  text-indent: 2em;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+section.main>.row>.left>.row>div {
+  padding: 15px 15px 10px 15px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #EFEFEF;
+}
+
+section.main>.row>.left rect {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+}
+
+section.main>.row>.left .big rect {
+  height: 150px;
+}
+
+section.main>.row>.left span.other {
+  margin: auto 0 0 0;
+}
+
+section.main>.row>.left span.other.right {
+  margin: auto 0 0 auto;
+}
+
+section.main>.row>.left .normal.ppt span.ppt {
+  display: block;
+  border-radius: 2px;
+  background-color: #FF773A;
+  font-size: x-small;
+  line-height: 1.5em;
+  color: #fff;
+  margin-top: 10px;
+  width: max-content;
+  padding: 0 3px;
+}
+
+section.main>.row>.left .normal.ppt span.title {
+  
+  display: block;
+}
+
+section.main>.row>.left .normal.video>.img {
+  position: relative;
+}
+
+section.main>.row>.left .normal.video>.img>svg {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  color: #fff;
+}
+
+section.main>.row>.left>.row>.long>div {
+  display: flex;
+  flex-direction: row;
+}
+
+section.main>.row>.left>.row>.long>.img {
+  width: 100px;
+  height: auto;
+}
+
+section.main>.row>.left>.row>.long .main {
+  margin-left: 20px;
+}
+
+section.main>.row>.left>.row>.long .main span.content {
+  margin-top: 20px;
+}
+
+section.main>.row>.left .long rect {
+  width: 150px;
+}
+
+
+section.main .right>.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+section.main .right>.title>.more {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+section.main .event {
+  border: 1px solid #EFEFEF;
+  border-bottom: 3px solid #0092F1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px 15px 0 15px;
+  margin-bottom: 10px;
+}
+
+section.main .event span.other {
+  color: #bbbbbb;
+  margin-left: 5px;
+  height: 40px;
+  line-height: 40px;
+}
+
+section.main .event rect.long {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+}
+
+section.main .special {
+  border: 1px solid #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px 15px 40px 15px;
+  margin-bottom: 10px;
+}
+
+section.main .special>.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-spacing: -40px;
+}
+
+section.main .special>.title>.more {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+section.main .special>hr {
+  border-top: #000 1px dashed;
+  width: 80%;
+}
+
+section.main .special>.img {
+  position: relative;
+  width: 60%;
+  align-self: center;
+}
+
+section.main .special>.img>rect {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: #666666;
+  align-self: center;
+}
+
+section.main .special>.img>.tag {
+  display: block;
+  position: absolute;
+  background-color: #000;
+  height: 25%;
+  width: 100%;
+  color: #fff;
+  bottom: 0;
+  text-align: center;
+}

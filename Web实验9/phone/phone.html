@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>实验9 Bootstrap基本练习</title>
+  <!-- 新 Bootstrap5 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+ 
+  <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
+  <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+ 
+  <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/phone.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="m-city col-2">
+        <span>XX</span>
+        <i>
+          <svg class="bi bi-chevron-down" width="0.8em" height="0.8em" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 01.708 0L8 10.293l5.646-5.647a.5.5 0 01.708.708l-6 6a.5.5 0 01-.708 0l-6-6a.5.5 0 010-.708z" clip-rule="evenodd" />
+          </svg>
+        </i>
+      </div>
+
+      <div class="m-search col-8">
+        <div class="input-group">
+          <svg class="bi bi-search input-group-addon" width="0.8em" height="0.8em" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd" />
+          </svg>
+          <input type="text" class="form-control" value="XXXXXX">
+        </div>
+      </div>
+
+      <div class="m-user col-2">
+        <i>
+          <svg class="bi bi-people-circle" width="1.5em" height="1.5em" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 008 15a6.987 6.987 0 005.468-2.63z" />
+            <path fill-rule="evenodd" d="M8 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M8 1a7 7 0 100 14A7 7 0 008 1zM0 8a8 8 0 1116 0A8 8 0 010 8z" clip-rule="evenodd" />
+          </svg>
+        </i>
+        <span>XX</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="container-fluid m-part">
+    <div class="row">
+      <div class="part col-3">
+        <circle class="orange"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="red"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="purple"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="orange"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="blue"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="yellow"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="blue"></circle>
+        <span>XX</span>
+      </div>
+
+      <div class="part col-3">
+        <circle class="orange"></circle>
+        <span>XX</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid m-area">
+    <div class="row">
+      <div class="left col-4">
+        <span class="green">XXXX</span>
+        <span class="other">XXXXXXXX</span>
+        <rect class="large"></rect>
+      </div>
+
+      <div class="col-8">
+        <div class="normal">
+          <div class="text">
+            <span class="orange">XXXX</span>
+            <span class="other">XXXXXXXX</span>
+          </div>
+          <rect></rect>
+        </div>
+
+        <div class="row">
+          <div class="sub col-6">
+            <span class="pink">XXXX</span>
+            <rect class="small"></rect>
+          </div>
+
+          <div class="rush col-6">
+            <span class="orange">XXXX</span>
+            <span class="other">XXXXXXXX</span>
+            <time>10:56:24</time>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="container-fluid m-area">
+    <div class="row">
+      <div class="normal col-6">
+        <div class="text">
+          <span class="orange">XXXX</span>
+          <span class="other">XXXXXXXX</span>
+        </div>
+        <rect></rect>
+      </div>
+
+      <div class="normal col-6">
+        <div class="text">
+          <span class="orange">XXXX</span>
+          <span class="other">XXXXXXXX</span>
+        </div>
+        <rect></rect>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid m-list">
+    <div class="row">
+      <div class="head col-12">
+        <span>XXXX</span>
+      </div>
+    </div>
+
+    <div class="list row">
+      <div class="col-2">
+        <rect></rect>
+      </div>
+      <div class="other col-10">
+        <div class="info">
+          <span>XXXX</span>
+          <span class="other">XXXXXXXXXXXXXXXX</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <span class="price">XX<span>元</span></span>
+            <span class="discount">多优惠+</span>
+          </div>
+          <span class="sell other">已售549516 </span>
+        </div>
+      </div>
+    </div>
+    <div class="list row">
+      <div class="col-2">
+        <rect></rect>
+      </div>
+      <div class="other col-10">
+        <div class="info">
+          <span>XXXX</span>
+          <span class="other">XXXXXXXXXXXXXXX</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <span class="price">XX<span>元</span></span>
+            <span class="discount">多优惠+</span>
+          </div>
+          <span class="sell other">已售99651 </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list row">
+      <div class="col-2">
+        <rect></rect>
+      </div>
+      <div class="other col-10">
+        <div class="info">
+          <span>XXXX</span>
+          <span class="other">XXXXXXXXXXXXXXX</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <span class="price">XX<span>元</span></span>
+            <span class="other">门市价:XX元</span>
+          </div>
+          <span class="sell other">已售35963 </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="list row">
+      <div class="col-2">
+        <rect></rect>
+      </div>
+      <div class="other col-10">
+        <div class="info">
+          <span>XXXX</span>
+          <span class="other">XXXXXXXXXXXXXXX</span>
+        </div>
+        <div class="bottom">
+          <div>
+            <span class="price">XX<span>元</span></span>
+            <span class="other">门市价:XXX元</span>
+          </div>
+          <span class="sell other">已售738 </span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-11">
+        <span>XXXXX</span>
+      </div>
+      <div class="col-1">
+        <svg class="bi bi-chevron-right" width="1em" height="1em" viewbox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

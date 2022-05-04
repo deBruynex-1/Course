@@ -1,0 +1,115 @@
+#d1{
+	position: absolute;
+  	width: 299px;
+  	height:390px;
+  	border: 8px solid #DCDCDC;
+  	padding-top: -20px;
+	padding-bottom: 60px;
+}
+body div{
+	font-size: 12px;
+	width: 300px;
+	overflow: hidden;
+	margin-top: 10px;	
+}
+.m-hf{
+	width: 295px;
+	border: 1px solid #FF4500;
+	margin-right: 1px;
+	margin-top: -1.5px;
+	border-top: 1.5px solid #FFFAFA;
+}
+.m-dd{
+
+}
+.m-dd group{
+	width: 75px;
+	float: left;
+	text-align: center;
+}
+.m-dd p{
+	font-size: 15px;
+	color: #FF4500;
+	font-weight: bold;
+}
+.m-xx{
+	position: relative;
+	height: 25px;
+	background: #FFDAB9;
+}
+.m-xx a{
+	text-align: center;
+	color: #FF4500;
+	font-size: 10px;
+	line-height: 30px;
+	display: block;
+}
+.m-cd{
+
+}
+.m-cd span{
+	width: 60px;
+	float: left;
+	text-align: center;
+}
+.m-lt{
+
+}
+.m-lt span{
+	float: left;
+	width: 140px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.m-xz{
+
+}
+.m-xz ul{
+	padding: 0;
+	margin: 0;
+}
+.m-xz span{
+	width: 72px;
+  	height: 60px;
+  	float: left;
+  	border: 1px solid #FFFAFA;
+}
+.m-xz a{
+	padding-top: 40px;
+	text-align: center;
+	display: block;
+}
+.hf1 span{
+	padding-left: 18px;
+	text-align: center;
+}
+.hf2{
+	margin-top: 20px;
+	padding-left: 10px;
+}
+.hf3{
+	padding-left: 10px;
+}
+.hf4{
+	margin-left: 10px;
+}
+.hf5{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.image-1{
+	background: url(image/recharge.png) no-repeat center 20%;
+  	background-size: 30px;
+}
+.image-2{
+	background: url(image/travel.png) no-repeat center 20%;
+	background-size: 30px;
+}
+.image-3{
+	background: url(image/insurance.png) no-repeat center 20%;
+	background-size: 30px;
+}
+.image-4{
+	background: url(image/game.png) no-repeat center 20%;
+	background-size: 30px;
+}

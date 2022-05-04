@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+}
+
+.m-group {
+	position: relative;
+	padding: auto;
+	margin: 0 auto;
+}
+
+.m-table {
+	border: 2px solid #000000;
+	padding: 25px 20px 20px 20px;
+	width: 530px;
+	height: 300px;
+}
+
+.u-pic {
+	display: inline-block;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid #000000;
+	background: #A9A9A9;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+
+.u-box {
+	position: absolute;
+	top: 40px;
+	left: 180px;
+	border: 2px solid #333;
+	height: 280px;
+	width: 280px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF;
+}
+
+.u-box .u-pic {
+	width: 240px;
+	height: 240px;
+	line-height: 240px;
+}
+
+.hide {
+	display: none;
+}

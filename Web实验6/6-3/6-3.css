@@ -1,0 +1,96 @@
+body {
+	margin: 20px;
+	background-color: #FFFFFF;
+}
+
+.m-xm {
+	width: 400px;
+	height: 380px;
+	margin: 0 auto;
+}
+
+.m-pic {
+	width: 400px;
+	height: 270px;
+	background-color: #FFFACD;
+}
+
+.m-wb {
+	width: 400px;
+	height: 140px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+}
+
+.m-title {
+	width: 380px;
+	height: 20px;
+	background-color: #FFFFFF;
+	margin: 10px 10px 0 10px;
+}
+
+.m-message {
+	width: 380px;
+	height: 30px;
+	background-color: #FFFFFF;
+	margin: 10px 0 10px 10px;
+}
+
+.m-price {
+	width: 380px;
+	height: 50px;
+	background-color: #FFFFFF;
+	margin: 10px 0 10px 10px;
+}
+
+.m-title>span {
+	font-size: 10px;
+	margin: 0 0 0 10px;
+}
+
+.m-message>a {
+	color: #DC143C;
+	font-size: 10px;
+	margin: 0 0 0 10px;
+}
+
+.m-message>span {
+	font-size: 10px;
+	margin: 0 0 0 5px;
+}
+
+.m-price>strong {
+	font-size: 20px;
+	color: #DC143C;
+	margin: 0 0 0 10px;
+}
+
+.m-price>del {
+	font-size: 10px;
+	margin: 0 0 0 10px;
+}
+
+.m-price>span {
+	color: #DC143C;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 0 0 0 140px;
+}
+
+.m-price>a {
+	font-size: 10px;
+	margin: 0;
+}
+
+.m-jm {
+	width: 1270px;
+	height: 850px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 0;
+	background-color: #D3D3D3;
+}

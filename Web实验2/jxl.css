@@ -1,0 +1,17 @@
+ .header{
+      color: #808080;
+      background-color: #white;
+      font-size: 12px;
+      padding: 10px;
+      text-align: center;
+    }
+    .column{
+      float: left;
+      padding: 10px;
+    }
+    .column.left{
+      width: 60%;
+    }
+    .column.right{
+      width: 30%;
+    }
